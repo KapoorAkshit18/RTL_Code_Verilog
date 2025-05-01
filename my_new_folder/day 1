@@ -1,1 +1,20 @@
+WRITE A VERILOG MODULE FOR A FULL ADDER USING PARAMETRIZED MODULE in rtl lang 
+module digi_add 
+#(
+local parameter bits = 1;
+)
+(
+input a[1-bits:0],
+input b[1-bits:0],
+input ci,
+output [1-bits]]s,
+output c_o
+
+
+);
+
+assign s = a + b + c_i;
+assign c_o = s[0];
+
+endmodule
 
